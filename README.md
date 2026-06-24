@@ -116,12 +116,13 @@ the average size around 15–20 nodes.
 Genetic_Programming_and_Symbolic_Regression/
 |
 ├── src/
-│   ├── CMakeLists.txt
 |   ├── main.cpp
 │   └── plot_fitness.py
 |
 ├── docs/
-│   └── programacao_genetica.pdf
+│   └── Tutorial_Programacao_Genetica_Regressao_Simbolica_Cpp23.pdf
+|
+├── CMakeLists.txt
 |
 ├── .editorconfig
 ├── .gitignore
