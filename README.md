@@ -170,12 +170,16 @@ sudo apt install libtbb-dev
 After running the program, generate the annotated plot:
 
 ```bash
-python3 ../src/plot_evolution.py
+python3 ../src/plot_fitness.py
 ```
 
 The script reads `evolution_fitness.csv` (generated automatically by the C++ program)
-and creates `evolution_annotated.png`. All annotation positions are computed dynamically
-from the data, so the chart is correct regardless of which run produced the CSV.
+and opens the annotated chart interactively (`plt.show()`). Saving it as
+`evolution_annotated.png` is supported but disabled by default — uncomment the
+`plt.savefig(...)` line near the end of the script if you want a PNG file instead of
+(or in addition to) the interactive window. All annotation positions are computed
+dynamically from the data, so the chart is correct regardless of which run produced
+the CSV.
 
 Requires pandas and matplotlib:
 
