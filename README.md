@@ -196,6 +196,12 @@ The chart contains two panels:
 
 ---
 
+## License
+
+This project is open-source and available under the GNU General Public License v3.0 (GPLv3).
+
+---
+
 ## Additional Notes
 
 This project was developed for educational purposes during my initial studies in Evolutionary Computation and Genetic Programming. Its primary goal is to emphasize conceptual clarity rather than performance or the completeness expected from a general-purpose library.
